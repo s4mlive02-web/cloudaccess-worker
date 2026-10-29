@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: cloudaccess-worker
+    runtime: docker
+    plan: free
+    envVars:
+      - key: BROWSER_WORKER_TOKEN
+        sync: false
+      - key: MAIN_APP_URL
+        value: https://cloudaccess-browser.vercel.app
+      - key: WORKER_PUBLIC_WS
+        sync: false

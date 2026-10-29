@@ -1,0 +1,1 @@
+{"name":"cloudaccess-browser-worker","version":"1.0.0","private":true,"type":"commonjs","scripts":{"start":"node src/index.js"},"dependencies":{"playwright":"1.48.2","ws":"8.18.0"}}
